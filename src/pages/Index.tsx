@@ -84,8 +84,10 @@ const Index = () => {
             <div className="hidden md:flex items-center space-x-6">
               <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
               <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
-              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
-                Invite Olympus
+              <Button asChild className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
+                <a href="https://discord.com/oauth2/authorize?client_id=1380980741382602853" target="_blank" rel="noopener noreferrer">
+                  Invite Olympus
+                </a>
               </Button>
             </div>
           </div>
@@ -110,12 +112,16 @@ const Index = () => {
               smart moderation, entertainment features, and powerful tools to create the perfect community experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-4 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
-                Invite Olympus
-                <ArrowRight className="ml-2 w-5 h-5" />
+              <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-4 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
+                <a href="https://discord.com/oauth2/authorize?client_id=1380980741382602853" target="_blank" rel="noopener noreferrer">
+                  Invite Olympus
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-purple-500/50 text-purple-300 hover:bg-purple-600 hover:text-white text-lg px-8 py-4 transition-all duration-300 transform hover:scale-105">
-                Join Support Server
+              <Button asChild size="lg" variant="outline" className="border-purple-500/50 text-purple-300 hover:bg-purple-600 hover:text-white text-lg px-8 py-4 transition-all duration-300 transform hover:scale-105">
+                <a href="https://discord.gg/t6K8QZ3Ebw" target="_blank" rel="noopener noreferrer">
+                  Join Support Server
+                </a>
               </Button>
             </div>
           </div>
@@ -181,12 +187,16 @@ const Index = () => {
               Join thousands of communities already using Olympus to create amazing Discord experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-10 py-4 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
-                Invite Olympus Now
-                <ArrowRight className="ml-2 w-5 h-5" />
+              <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-10 py-4 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
+                <a href="https://discord.com/oauth2/authorize?client_id=1380980741382602853" target="_blank" rel="noopener noreferrer">
+                  Invite Olympus Now
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-purple-500/50 text-purple-300 hover:bg-purple-600 hover:text-white text-lg px-10 py-4 transition-all duration-300">
-                Get Support
+              <Button asChild size="lg" variant="outline" className="border-purple-500/50 text-purple-300 hover:bg-purple-600 hover:text-white text-lg px-10 py-4 transition-all duration-300">
+                <a href="https://discord.gg/t6K8QZ3Ebw" target="_blank" rel="noopener noreferrer">
+                  Get Support
+                </a>
               </Button>
             </div>
           </div>
@@ -208,7 +218,7 @@ const Index = () => {
             <div className="flex flex-wrap justify-center md:justify-end gap-6 text-gray-400">
               <a href="#" className="hover:text-purple-400 transition-colors">Terms of Service</a>
               <a href="#" className="hover:text-purple-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Support Server</a>
+              <a href="https://discord.gg/t6K8QZ3Ebw" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">Support Server</a>
               <a href="#" className="hover:text-purple-400 transition-colors">GitHub</a>
             </div>
           </div>
